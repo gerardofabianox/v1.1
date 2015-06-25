@@ -15,6 +15,20 @@ function idrLoad() {
 </script>
 <script src="../assets/IDRViewer.js" type="text/javascript"></script>
 <script src="../assets/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8">
+
+            function onLoad()
+            {
+                  document.addEventListener("deviceready", onDeviceReady, true);
+            }
+
+            function exitFromApp()
+             {
+                navigator.app.exitApp();
+             }
+
+</script>
 </head>
 
 <!-- Background pattern courtesy of http://subtlepatterns.com/grey-washed-wall/ -->
